@@ -71,7 +71,7 @@ header .logo {
   }
 
   .hero .content .text {
-    margin-top: 50px;
+    margin-top: 20px;
     grid-column: 1/11;
   }
 
@@ -138,6 +138,12 @@ header .logo {
   width: 100%;
   border-radius: 4px;
 }
+
+.hero .content .form form > div > input:focus {
+  border: #2e35e6 1px solid;
+  outline: 0;
+}
+
 #terminos {
   height: auto;
 }
@@ -522,6 +528,15 @@ header .logo {
   color: #fff;
   background: #cc0967;
   border-color: #cc0967;
+}
+
+.proyects-section-cards img {
+  transition: 0.5s all ease;
+}
+
+.proyects-section-cards img:hover {
+  webkit-filter: blur(2px); /* Chrome, Safari, Opera */
+  filter: blur(2px);
 }
 
 @media (max-width: 1230px) {
